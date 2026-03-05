@@ -1,0 +1,257 @@
+/* FONT */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fffdf5;
+  color: #333;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+.pastel-nav {
+  background: #fff9db;
+  padding: 10px 0;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.navbar .nav-link {
+  color: #333;
+  font-weight: 500;
+  margin-right: 15px;
+}
+
+.brand-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* HERO */
+.hero-section {
+  padding-top: 100px;
+  padding-bottom: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-image-wrapper {
+  width: 300px;
+  height: 300px;
+  border-radius: 60% 40% 50% 50%;
+  overflow: hidden;
+  border: 6px solid #fff9db;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  margin: 0 auto;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.name-highlight {
+  color: #f59f00;
+}
+
+.hero-text {
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.btn-yellow {
+  background: #ffd43b;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.btn-yellow:hover {
+  transform: scale(1.05);
+}
+
+/* SECTION LIGHT */
+.section-light {
+  background: #fffdf5;
+  padding: 60px 20px;
+  margin: 40px auto;
+  border-radius: 30px;
+}
+
+/* SECTION TITLES */
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* BUBBLE CARDS */
+.bubble-card {
+  background: #fff3bf;
+  padding: 25px;
+  border-radius: 40px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.bubble-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+}
+
+/* EXPERIENCE BUBBLES */
+.experience-bubble {
+  background: #fff3bf;
+  padding: 25px;
+  border-radius: 40px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+}
+
+.experience-bubble.left {
+  margin-right: auto;
+}
+
+.experience-bubble.right {
+  margin-left: auto;
+}
+
+/* PORTFOLIO */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.portfolio-card {
+  background: #fff3bf;
+  border-radius: 40px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+}
+
+.portfolio-img-box img {
+  width: 100%;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+/* SKILLS */
+.skill-bubble {
+  background: #ffd43b;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 30px;
+  font-weight: 500;
+  transition: transform 0.3s;
+  cursor: default;
+}
+
+.skill-bubble:hover {
+  transform: scale(1.05);
+}
+
+/* CONTACT */
+.contact-section {
+  background: #fffdf5;
+  padding: 60px 20px;
+  border-radius: 30px;
+  margin-top: 40px;
+}
+
+.message-box form {
+  max-width: 500px;
+  margin: 0 auto 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.message-box input,
+.message-box textarea {
+  padding: 12px 15px;
+  border-radius: 20px;
+  border: 1px solid #ffd43b;
+  font-size: 16px;
+}
+
+.btn-send {
+  background: #ffd43b;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.btn-send:hover {
+  transform: scale(1.05);
+}
+
+.contact-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #ffd43b;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+
+.contact-item:hover {
+  transform: scale(1.05);
+}
+
+/* FOOTER */
+.footer {
+  background: #fff9db;
+  padding: 40px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+
+/* SOCIAL ICON (Instagram, WhatsApp, Email) */
+.social-icon {
+  font-size: 22px;
+  margin: 0 10px;
+  color: #ffd43b;
+  transition: 0.3s;
+}
+
+.social-icon:hover {
+  color: #f59f00;
+  transform: scale(1.2);
+} 
